@@ -1,0 +1,8 @@
+SEED = 67
+Free cells = 28
+Dataset rows = 756
+Task1_demo_reached_goal = True, steps = 10
+Task2_demo_reached_goal = True, steps = 10
+NN acc_train = 1.0
+NN acc_test  = 0.8888888888888888
+NN rmse_test = 0.6382847385042254

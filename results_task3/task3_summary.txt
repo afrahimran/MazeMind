@@ -1,0 +1,2 @@
+{'file': 'maze1.txt', 'ok': True, 'steps': 9, 'reward_png': 'results_task3/maze1_reward_curve.png', 'path_png': 'results_task3/maze1_path.png'}
+{'file': 'maze2.txt', 'ok': True, 'steps': 10, 'reward_png': 'results_task3/maze2_reward_curve.png', 'path_png': 'results_task3/maze2_path.png'}
