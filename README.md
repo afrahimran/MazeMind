@@ -2,12 +2,6 @@
 
 MazeMind is a maze-navigation project exploring **Q-learning** and a **neural network**. It trains a Q-learning agent on a grid maze, uses the resulting state/action examples to train a neural-network controller, and tests maze-solving on two additional maze configurations.
 
-## What the notebook does
-
-- **Task 1 — Q-learning:** Trains Q-tables for goal locations, visualizes a greedy path, and plots episode rewards.
-- **Task 2 — Neural network:** Builds a dataset from Q-learning actions, trains a scikit-learn MLP classifier to predict movement directions, and visualizes a predicted path.
-- **Task 3 — Maze testing:** Loads `maze1.txt` and `maze2.txt`, solves each maze, and saves path and reward plots.
-
 ## Results from the saved run
 
 - Random seed: **67**
@@ -19,7 +13,7 @@ MazeMind is a maze-navigation project exploring **Q-learning** and a **neural ne
 - Both Task 1 and Task 2 demonstration paths reached their goals in **10 steps**.
 - Task 3: `maze1.txt` reached its goal in **9 steps**, and `maze2.txt` in **10 steps**.
 
-These are results from the included example run, not a claim of general performance on unseen maze layouts. The neural network predicts actions learned from Q-learning rather than learning directly from raw images.
+These are results from the included example run. The neural network predicts actions learned from Q-learning rather than learning directly from raw images.
 
 ## Example visualizations
 
@@ -44,7 +38,7 @@ These are results from the included example run, not a claim of general performa
 3. Open `main.ipynb` and run its cells in order from the repository root.
 4. Keep `maze1.txt` and `maze2.txt` alongside `main.ipynb`. The notebook creates/updates `results_task1_task2/` and `results_task3/` when run.
 
-## Repository layout
+## Layout
 
 ```text
 MazeMind/
@@ -66,7 +60,3 @@ MazeMind/
     ├── maze2_path.png
     └── maze2_reward_curve.png
 ```
-
-## Tools
-
-Python, NumPy, Matplotlib, scikit-learn, Jupyter Notebook.
